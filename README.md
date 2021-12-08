@@ -4,4 +4,4 @@
 
 <a href="https://bmrnice.github.io/Estudos-Curso-Html5-Css3/HTML-CSS/Exercicios/ex001/index.html">Primeiro exercicio</a>
 
-<a href="https://bmrnice.github.io/Estudos-Curso-Html5-Css3/HTML-CSS/Exercicios/desafiodocap5/des10minsite/android.html">Site Android</a>
+<a href="https://bmrnice.github.io/Estudos-Curso-Html5-Css3/HTML-CSS/Exercicios/desafiosdocap5/des10minisite/android.html">Site Android</a>
