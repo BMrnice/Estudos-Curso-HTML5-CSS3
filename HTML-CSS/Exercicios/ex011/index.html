@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+    <link rel="shortcut icon" href="../favicon-16x16.png" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem Dinamicas</h1>
+    <p>tente abrir o site em diferentes resolucoes para ver a responsividade com tag em HTML5</p>    
+
+    <picture>
+        <source media="(max-width: 740px )" srcset="img/foto-p.png" type="image/png" >
+        <source media="(max-width: 1050px)" srcset="img/foto-m.png" type="image/png">
+        <img src="img/foto-g.png" alt="img grande" style="border-radius: 15px;">
+    </picture>
+    <hr>
+    <h1>Reproduzindo Audios</h1>
+    <p>
+        vamos aprender a reporduzir audios no nosso site 
+    </p>
+    <audio preload="auto" src="midia/JNATHYN - Dioma NCS Release _160k.mp3" type="audio/mp3" controls autoplay loop ></audio>
+</body>
+</html>

@@ -1,0 +1,25 @@
+.element-float  {
+    width: 250px;
+    height: 250px;
+    float: left;
+    
+}
+
+
+.element-list1 {
+    background-color: aquamarine;
+}
+
+.element-list2 {
+    background-color: blue;
+}
+
+.element-list3 {
+    background-color: blueviolet;
+    
+}
+
+.element-list4 {
+    background-color: chocolate;
+    
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">
+    
+    <title>Responsividade</title>
+   <style>
+       .pic{
+          
+           padding-right: auto;
+       }
+   </style>
+</head>
+<body>
+    <h1>Imagem Flexivel</h1>
+    <p>A imagem a baixo pode ser alterada de tamanho usando a responsividade.</p>
+    <p> Algo muito importante nos dias atuais ja que quase todo mundo acessa grande parte da internet pelo proprio smarphone de qualquer lugar</p>
+ 
+        <div class="pic">
+      
+            <picture>
+                <source srcset="img/paisagem-p.png" media="(max-width: 720px)" type="image/png">
+                <source media="(min-width: 1100px)" srcset="img/paisagem-g.png" type="image/png">
+                    <img src="img/paisagem-m.png" style="margin-top: 5px; margin-left: 5px;"  alt="imagem flexivel">
+            </picture>
+        </div>
+</body>
+</html>

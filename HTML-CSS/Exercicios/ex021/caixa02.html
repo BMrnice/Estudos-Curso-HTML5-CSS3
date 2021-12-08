@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font: normal 15px Arial,monospace,sans-serif;
+            margin: 10px;
+            background-color: bisque;
+        }
+        header {
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav {
+            background-color: dodgerblue;
+            padding: 2px;
+            
+        }
+        nav > a{
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav >a:hover{
+            text-decoration: underline;
+            color: chartreuse;
+            font-size: large;
+            text-transform: capitalize;
+            
+        }
+        main{
+            background-color: white;
+            margin: 10px;
+            padding: 15px;
+            border-radius: 10px 0px;
+            box-shadow: 5px 4px 4px rgba(0,0,0,0.384);
+        }
+        article{
+            background-color: darkgrey;
+            text-align: justify;
+            padding: 5px;
+        }
+        article >aside {
+            background-color: darkslategray;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0;
+        }
+        aside{
+            margin: 5px;
+            padding: 8px;
+            background-color: brown;
+        }
+        footer >p{
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>M.M Houtman </h1>
+        <nav>
+            <a href="#">part 1</a>
+            <a href="#">part 2</a>
+            <a href="#">part 3</a>
+            <a href="#">parte 4</a>
+        </nav>
+    </header>
+    <main>
+        <section id="part01">
+            <article>
+                <h3>Noticias</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, velit? Maxime, blanditiis quasi provident optio nobis accusamus corporis architecto obcaecati! Beatae ipsa magnam quod architecto error dolor quo recusandae temporibus?</p>
+                <aside>escrito por M.Mrote</aside>
+            </article>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta inventore hic illo perspiciatis quaerat id eveniet ut, quo neque dolore! Explicabo officia ipsa pariatur odio molestiae, exercitationem consectetur saepe optio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio quisquam, reprehenderit nesciunt placeat eius et earum eum quasi laudantium quod itaque non consequuntur quidem voluptatum sunt aspernatur natus enim autem!</p>
+            </article>
+            <aside id="part02">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum vero numquam sunt debitis laboriosam, quas officiis mollitia, maxime dolorem quam, consequatur assumenda. Neque pariatur distinctio laudantium ex nihil eum veritatis.
+            </aside>
+        </section>
+    </main>
+    <footer id="part03">
+        <p>Desenvolvido By M.M Houtman</p>
+    </footer>
+</body>
+</html>

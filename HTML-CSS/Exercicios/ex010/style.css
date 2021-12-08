@@ -1,0 +1,43 @@
+
+        body{
+            background-color: lightblue;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+
+        h1 {
+            color: aquamarine;
+            background-color: blueviolet;
+        }
+
+        h2{
+            color: rgb(11, 167, 76);
+        }
+
+        p {
+            text-align: justify;
+        }
+        body {
+            background: rgb(54, 175, 245);
+            font: normal 15pt Arial;
+        }
+        header {
+            color: whitesmoke;
+            text-align: center;
+        }
+        
+        section {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            width: 500px;
+            margin: auto;
+            box-shadow: 3px 3px 7px rgb(15, 15, 15);
+        
+        }
+        
+        footer {
+            color: whitesmoke;
+            text-align: center;
+            font-style: italic;
+        }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links cAp15 aula 04</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+            ;
+        }
+        li {
+            list-style: none;
+        }
+        a { outline-color: black;
+            color: aquamarine;
+            text-decoration: none;
+
+        }
+        a:hover{
+            text-decoration:  wavy;
+            color: chartreuse;
+        }
+        a:active{
+            color: red;
+        }
+        a::after{
+            content: " [link]";
+            color: darkgray;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: large;
+
+        }
+        a::before{
+            content: "{f}";
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="#">Repositorio GitHub</a></li>
+        <li><a href="#">canal do youtube</a></li>
+        <li><a href="#">SIte do mag</a></li>
+    </ul>
+</body>
+</html>

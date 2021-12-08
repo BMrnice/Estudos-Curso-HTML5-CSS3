@@ -1,0 +1,36 @@
+body {
+    font: normal 18px Arial,monospace,sans-serif;
+    background-color: rgb(140, 195, 247);
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+}
+h1#main{
+    text-align: center;
+    background-color: aqua;
+    color: aliceblue;
+    
+    
+}
+
+h2 {
+    color: black;
+}
+
+.basico{
+    color: green;
+}
+
+.intermediario{
+    color: yellow;
+}
+
+.avancado{
+    color: red;
+}
+
+.destaque{
+    background-color: rgba(173, 117, 224, 0.589) ;
+    
+}
