@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeira Tabela</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    table {
+        width: 400px;
+        border-collapse: collapse;
+    }
+    td{
+        border: 2.9px solid black;
+        padding: 5px;
+        
+    }
+    tr.linha{
+        background-color: lightgray;
+    }
+
+    td.dado{
+        background-color: blueviolet;
+    }
+
+    td.dado-neg{
+        background-color: lightsalmon;
+    }
+
+    td:hover{
+        background-color: chartreuse;
+    }
+</style>
+<body>
+    <h1>Minha tabela 1</h1>
+        <!--
+            Hierarquia de tabela (simples)
+            Table= tabela
+                table row = linha da tabela
+                    table header = cabecalho da tabela
+                    table data =dado da tabela
+                --->
+        <table>
+            
+            <tr> <!--Linha 1-->
+                <td>A1</td>
+                <td>b1</td>
+                <td>c1</td>
+                
+            </tr>
+            <tr class="linha">
+                <td>A2</td>
+                <td>b2</td>
+                <td class="dado">c2</td>
+            </tr>
+           
+            <tr>
+                <td class="dado">a3</td>
+                <td>b3</td>
+                <td>c3</td>
+            </tr>
+            <tr>
+                <td>A4</td>
+                <td>B4</td>
+                <td>C4</td>
+                <td class="dado-neg">D4</td>
+            </tr>
+        </table>
+    
+</body>
+</html>
