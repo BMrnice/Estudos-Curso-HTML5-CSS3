@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de notas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: honeydew;
+        }
+        section{
+            background-color: rgba(127, 255, 212, 0.514);
+            padding: 20px;
+            width: 700px;
+            border-radius: 20px;
+            box-shadow: 2px 2px 8px  black;
+            margin-left: auto;
+            margin-right: auto;
+            height: 600px;
+        }
+        main {
+            border-radius: 15px;
+            padding: 25px;
+            background-color: rgba(77, 77, 248, 0.425);
+        }
+        th,tr,td {
+            border: 1px solid black;
+            width: 150px;
+            text-transform: capitalize ;
+        }
+         th{
+            background-color: rgb(199, 191, 191);
+            
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>
+            <h1>Tabela de Notas dos alunos 5'C</h1>
+        </div>
+        <main>
+            <table>
+                <caption>Interdiciplinas</caption>
+                <thead>
+                    <tr>
+                        <th rowspan="2" scope="col">Área</th>
+                        <th rowspan="2" scope="col">disciplinas</th>
+                        <th colspan="2" scope="colgroup">notas</th>
+                        <th rowspan="2" scope="col">média</th>
+                        <tr>
+                            <th>notas 1</th>
+                            <th>notas 2</th>
+
+                        </tr>
+                    </tr>
+                </thead>
+                    <tr>
+                        <th rowspan="4" scope="rowgroup">exatas</th>
+                        <td>matematica</td>
+                        <td>5.1</td>
+                        <td>5.2</td>
+                        <td>5.5</td>
+                    </tr>
+                    <tr>
+                        <td>fisica</td>
+                        <td>5.1</td>
+                        <td>5.2</td>
+                        <td>5.5</td>
+                    </tr>
+                    <tr>
+                        <td>quimica</td>
+                        <td>5.1</td>
+                        <td>5.2</td>
+                        <td>5.5</td>
+
+                    </tr>
+                    <tr>
+                        <td>biologia</td>
+                        <td>5.1</td>
+                        <td>5.2</td>
+                        <td>5.5</td>
+                    </tr>
+                    <tr>
+                        <th colspan="4" scope="row">medias de exatas</th>
+                        <td>00.00</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2" scope="rowgroup">humanas</th>
+                        <td>historia</td>
+                        <td>5.1</td>
+                        <td>5.2</td>
+                        <td>5.5</td>
+                    </tr>
+                    <tr>
+                        <td>geografia</td>
+                        <td>5.1</td>
+                        <td>5.2</td>
+                        <td>5.5</td>
+                    </tr>
+                    <tr>
+                        <th colspan="4" scope="row">media de humanas</th>
+                        <td>00.00</td>
+                    </tr>
+            </table>
+        </main>
+    </section>
+</body>
+</html>
