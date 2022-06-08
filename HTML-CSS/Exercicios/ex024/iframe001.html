@@ -9,7 +9,16 @@
         a:hover {
             background-color: lightseagreen;
             border-radius: 5px ;
-            font: caption;
+            font-style: italic;
+            transition: 3s;
+        }
+        p {
+            color: green;
+            font-size: 22px;
+        }
+        iframe {
+            width: 400px;
+            height: 400px;
         }
     </style>
 </head>
@@ -19,14 +28,25 @@
 
     <p>
         Acessando site do 
-        
-        <iframe src="https://www.cursoemvideo.com/" frameborder="1">
+        <!--tamanho padrao 300x150-->
+        <iframe src="https://www.cursoemvideo.com/" frameborder="1" height="500" scrolling="auto">
 
         </iframe> para aprender a programar.
 
-        <p>
-            Aqui o exemplo de um iframe completo ja incorporado no site com todods atributos dados pelo site de hospedagem  <iframe width="200" height="200" src="https://www.youtube.com/embed/GWULnkTnapM" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> tambem e bem legal
+        <p style="color: red; font-size: 12px;">
+            Aqui o exemplo de um iframe completo ja incorporado no site com todo os atributos dados pelo site de hospedagem  <iframe width="200" height="200" src="https://www.youtube.com/embed/GWULnkTnapM" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> tambem e bem legal
         </p>
+
+        <p>
+            Este e o site no GitHub do professor. 
+
+            <iframe src="https://gustavoguanabara.github.io" frameborder="1"></iframe>
+        </p>
+    </p>
+    <p>
+        <iframe src="https://www.google.com.br" frameborder="1">
+            <a href="https://www.google.com.br">Link para o site</a>
+            Este site nao e suportado pelo @iframe</iframe>
     </p>
 </body>
 </html>
