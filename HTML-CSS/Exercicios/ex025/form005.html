@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Exemplo de Formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas" checked> <label for="isxmas">Masculino</label> <br>
+            <input type="radio" name="sexo" id="isxfem"> <label for="isxfem">Feminino</label> <br>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Jogos Favoritos</legend>
+            <input type="checkbox" checked name="jgrpg" id="ijgrpg"><label for="ijgrpg"> RPG </label><br>
+
+            <input type="checkbox" name="jgavn" id="ijgavn"> <label for="ijgavn">Aventura</label><br></label>
+
+            <input type="checkbox" name="jgcar" id="ijgcar"> <label for="ijgcar">Carro</label><br>
+
+            <input type="checkbox" name="jgluta" id="ijluta"> <label for="ijluta">Luta</label><br>
+
+            <input type="checkbox" name="jgfps" id="ijgfps"> <label for="ijgfps">FPS</label><br>
+
+            <input type="checkbox" name="jgbroy" id="ijbroy"> <label for="ijbroy">Battleroyal</label><br>
+
+            <input type="checkbox" name="jgmmo" id="ijmmo"> <label for="ijmmo">MMORPG</label><br>
+
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
