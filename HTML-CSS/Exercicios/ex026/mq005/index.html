@@ -5,12 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="estilos/style.css">
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-        <menu>
+        <span  id="burger" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </span>
+        <menu id="menu">
             <ul>
                 <li> <a href="http://#">Link para o video</a></li>
                 <li> <a href="#">noticias</a> </li>
@@ -22,7 +26,7 @@
     <main>
         <article>
             <h2>Eletrificação da frota ganha força no cenário mundial</h2>
-            <img src="https://tm.ibxk.com.br/2022/08/29/29131225061288.jpg?ims=1120x420" alt="carro eletricos do futuro" srcset="">
+            <img src="https://tm.ibxk.com.br/2022/08/29/29131225061288.jpg?ims=1200x420" alt="carro eletricos do futuro" srcset="">
             <p>As mudanças climáticas já mobilizam governos e empresas. No último dia 16 de agosto, o presidente americano Joe Biden sancionou a lei que criou um pacote de, nada menos, que US$ 430 bilhões. Objetivo: combater as transformações no clima e também a inflação. Mas onde entra a mobilidade elétrica?
                 
             </p>
@@ -48,17 +52,17 @@
                 Eles estão desenvolvendo cinco novos modelos de motos e investindo em novas estações de troca de bateria. A ideia é implementar pontos de troca de baterias, onde o motociclista entregará peças quase descarregadas e substituirá por outras carregadas.
             </p>
             <p>
-                <ul>
-                    <li><a href="https://www.tecmundo.com.br/mobilidade-urbana-smart-cities/232651-desafios-crescimento-frota-veiculos-eletricos-brasil.htm">Desafios para o crescimento da frota de veículos elétricos no Brasil</a></li>
-                </ul>
+                
+                    <a href="https://www.tecmundo.com.br/mobilidade-urbana-smart-cities/232651-desafios-crescimento-frota-veiculos-eletricos-brasil.htm">Desafios para o crescimento da frota de veículos elétricos no Brasil</a>
+                
             </p>
             <p>
                 Atenta às transformações da mobilidade, o iFood firmou parceria com a Voltz para disponibilizar a moto elétrica Voltz EVS Work iFood, uma versão feita com exclusividade para os entregadores cadastrados no app de delivery. Segundo as empresas, a troca da moto a combustão pela elétrica pode representar uma economia de 60% para os entregadores, considerando as despesas com combustível.
             </p>
             <p>
-                <img src="https://img.ibxk.com.br/2022/08/29/carro-eletricos-29131155562287.jpg?ims=704x" alt="base de carregamento de carro" srcset="">
+                <img src="https://img.ibxk.com.br/2022/08/29/carro-eletricos-29131155562287.jpg?ims=504x320" alt="base de carregamento de carro" srcset="">
                 O crescimento da frota mundial de carros elétricos esbarra no baixo estoque disponibilizado pelas montadoras.
-                <span class="desc">Fonte: <a target="_blank" href="https://www.gettyimages.com.br/">Gettyimages</a></span>
+                
             </p>
             <p>
                 Apesar de tímidos, alguns estímulos do setor público podem impulsionar ainda mais o setor. Em maio deste ano, o Projeto de Lei (PL) que cria política de incentivo tributário à pesquisa de desenvolvimento da mobilidade elétrica no Brasil, foi aprovado pela Comissão de Ciência e Tecnologia do Senado. Vale destacar que, entre a proposta do PL, está a determinação de que as empresas beneficiadas por renúncias fiscais no programa de inovação Rota 2030 — Mobilidade e Logística, deverão aplicar 1,5% do benefício tributário em pesquisas sobre o desenvolvimento da tecnologia para veículos elétricos. Sem dúvida, esse é um investimento no futuro.
@@ -68,5 +72,16 @@
             </p>
         </article>
     </main>
+    <script>
+        function clickMenu(){
+            let menu = document.getElementById('menu')
+             if(menu.style.display == 'block'){
+                menu.style.display = 'none'
+                
+             } else {
+                menu.style.display = 'block'
+             }
+        }
+    </script>
 </body>
 </html>
