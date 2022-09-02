@@ -7,8 +7,9 @@
     <title>Media Query</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
-<body>
+<body onresize="mudouTamanho()">
     <header>
         <h1>Meu site</h1>
         <span  id="burger" class="material-symbols-outlined" onclick="clickMenu()">
@@ -39,9 +40,9 @@
             <p>
                 Entretanto, esse fenômeno não é uma exclusividade norte-americana. Na Austrália, a demora na entrega de um novo Tesla pode ser de até nove meses. O desequilíbrio entre oferta e procura fez com que os usados sejam comercializados com preços mais elevados
             </p>
-            <q>
+            <p>
                 A eletrificação da frota mundial segue em velocidade de cruzeiro, mesmo diante de um cenário em que é necessário aguardar pelo veículo. Em pouco tempo, o mercado vai se ajustar e será possível atender à crescente demanda.
-            </q>
+            </p>
             <p>
                 Prova disso, são os planos da empresa brasileira 99, aplicativo de transportes que iniciou suas atividades em 2012. Eles anunciaram recentemente que pretendem atingir 10 mil veículos elétricos rodando em todo o país até 2025. Em conjunto com a BYD, a 99 já colocou diversos VE’s em circulação. A nova parceria, agora com a Movida, vai disponibilizar 50 carros elétricos para aluguel. Até o fim de 2022, a empresa quer ter 300 carros elétricos nas ruas.
             </p>
@@ -52,18 +53,18 @@
                 Eles estão desenvolvendo cinco novos modelos de motos e investindo em novas estações de troca de bateria. A ideia é implementar pontos de troca de baterias, onde o motociclista entregará peças quase descarregadas e substituirá por outras carregadas.
             </p>
             <p>
-                
+                <q>
                     <a href="https://www.tecmundo.com.br/mobilidade-urbana-smart-cities/232651-desafios-crescimento-frota-veiculos-eletricos-brasil.htm">Desafios para o crescimento da frota de veículos elétricos no Brasil</a>
-                
+                </q>
             </p>
             <p>
                 Atenta às transformações da mobilidade, o iFood firmou parceria com a Voltz para disponibilizar a moto elétrica Voltz EVS Work iFood, uma versão feita com exclusividade para os entregadores cadastrados no app de delivery. Segundo as empresas, a troca da moto a combustão pela elétrica pode representar uma economia de 60% para os entregadores, considerando as despesas com combustível.
             </p>
-            <p>
+            <i class="img-car">
                 <img src="https://img.ibxk.com.br/2022/08/29/carro-eletricos-29131155562287.jpg?ims=504x320" alt="base de carregamento de carro" srcset="">
-                O crescimento da frota mundial de carros elétricos esbarra no baixo estoque disponibilizado pelas montadoras.
+                <p>O crescimento da frota mundial de carros elétricos esbarra no baixo estoque disponibilizado pelas montadoras.</p>
                 
-            </p>
+            </i>
             <p>
                 Apesar de tímidos, alguns estímulos do setor público podem impulsionar ainda mais o setor. Em maio deste ano, o Projeto de Lei (PL) que cria política de incentivo tributário à pesquisa de desenvolvimento da mobilidade elétrica no Brasil, foi aprovado pela Comissão de Ciência e Tecnologia do Senado. Vale destacar que, entre a proposta do PL, está a determinação de que as empresas beneficiadas por renúncias fiscais no programa de inovação Rota 2030 — Mobilidade e Logística, deverão aplicar 1,5% do benefício tributário em pesquisas sobre o desenvolvimento da tecnologia para veículos elétricos. Sem dúvida, esse é um investimento no futuro.
             </p>
@@ -81,6 +82,14 @@
              } else {
                 menu.style.display = 'block'
              }
+        }
+
+        function mudouTamanho(){
+            if (window.innerWidth >= 768 ){
+                menu.style.display = 'block'
+            } else {
+                menu.style.display = 'none'
+            }
         }
     </script>
 </body>

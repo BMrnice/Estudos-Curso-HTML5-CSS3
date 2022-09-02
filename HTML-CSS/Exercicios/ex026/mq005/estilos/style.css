@@ -10,6 +10,7 @@ body, html {
 }
 header {
     background-color: gray;
+    
 }
 
 header > h1 {
@@ -24,6 +25,9 @@ span#burger {
     text-align: center;
     padding: 10px;
     cursor: pointer;
+    border-radius: 25px;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 span#burger:hover{
     background-color: white;
@@ -33,15 +37,20 @@ span#burger:hover{
 
 menu {
     display: none;
+    
 }
 
 menu > ul {
     list-style-type: none;
+    
 }
 
 menu > ul >li > a {
+    border-radius: 15px;
     display: block;
     padding: 10px;
+    margin-left: 2px;
+    margin-right: 2px;
     text-decoration: none;
     text-align: center;
     background-color: rgb(87, 87, 87);
@@ -64,18 +73,23 @@ main{
 
 h2 {
     text-align: center;
+    padding-bottom: 20px;
 }
 img {
     width: 90vw;
     margin: auto;
-    height: 673px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
+   
 }
-article > h2 {
-    padding-bottom: 20px;
+.img-car > p {
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(148, 148, 149);
+    text-indent: 10px;
+    margin-bottom: 10px;
 }
 
-article > p {
+article > p  {
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 10px;

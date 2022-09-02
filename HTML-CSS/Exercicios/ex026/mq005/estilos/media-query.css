@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+/*Typical device breakpoints*
+-------------------------------
+pequenas telas : até 600px
+celular : de 600px até 768px
+tablet : 768px até 992px
+desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+/*min quando declarado siginfica que comeca nesse valor  e acima disso vale essa regra */
+@media screen and (min-width: 768px) {
+    span#burger {
+        display: none;
+    }
+    menu {
+        
+        display: block;
+    }
+
+    menu >ul >li {
+        display: inline-block;
+        margin-left: 1px;
+        margin-right: 1px;
+    }
+
+   
+    
+}
