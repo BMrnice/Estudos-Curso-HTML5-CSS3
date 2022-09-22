@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/* Typical device brakpoints
+-----------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Table: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+:root {
+    --color-1: #74559c;
+    --color-2: #f9f6fe;
+    --color-3: #49a09d; /*verde*/
+    --color-4: #5f2c82; /*lilas*/
+  }
+
+@media screen and (min-width:768px) and (max-width:992px){/*tablet*/
+
+    body {
+        background-image: linear-gradient(to top,var(--color-3),var(--color-4));
+    }
+    section#login {
+        width: 80vw;
+    }
+
+    section#login >div#imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#form{
+        float: right;
+        width: 70%;
+    }
+}
+
+@media screen and (min-width: 992px){ /*tela grande*/
+    
+    body {
+        background-image: linear-gradient(to top,var(--color-3),var(--color-4));
+    }
+    section#login{
+        width: 990px;
+    }
+
+    section#login > div#imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#form {
+        float: right;
+        width: 50%;
+    }
+}
