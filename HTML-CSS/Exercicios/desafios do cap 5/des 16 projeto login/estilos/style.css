@@ -79,6 +79,27 @@ form>div.campo{
     border-radius: 5px;
     margin: 5px 0px;
 }
+div.campo > label {
+    display: none;
+}
+div.campo > i{
+    color: #ffffff;
+    /*background-color: black;*/
+    font-size: 2em;
+    width: 35px;
+    padding: 5px;
+}
+
+div.campo > input{
+    background-color: var(--color-3);
+    font-size: 1em;
+    width: calc(100%-35px);
+    transform: translateY(-11px);
+    height: 100%;
+    padding: 4px;
+    border: 0px;
+    border-radius: 5px;
+}
 
 form > input[type=submit] {
     display: block;
