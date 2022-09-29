@@ -22,6 +22,7 @@ Grandes telas: acima de 1200px
     }
     section#login {
         width: 80vw;
+        
     }
 
     section#login >div#imagem {
@@ -33,6 +34,7 @@ Grandes telas: acima de 1200px
     section#login > div#form{
         float: right;
         width: 70%;
+        margin-top: 100px;
     }
 }
 
@@ -54,6 +56,7 @@ Grandes telas: acima de 1200px
     section#login > div#form {
         float: left;
         width: 50%;
+        margin-top: 100px;
     }
 }
 
